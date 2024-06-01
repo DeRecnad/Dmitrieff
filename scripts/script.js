@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var projects = document.querySelectorAll('.card');
+    var projects = document.querySelectorAll('.card-unhover');
 
     projects.forEach(function(project) {
         var thumbnails = project.querySelectorAll('.thumbnails img');
